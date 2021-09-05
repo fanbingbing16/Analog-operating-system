@@ -1,0 +1,163 @@
+@import './base';
+@import './comon';
+.nothing{
+    height: 100%;
+}
+.taskBar{
+    
+    // margin-bottom: 0px;
+    background-color: rgb(211,226,235);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    .search{
+
+        margin-left: 60px;
+        position: relative;
+        height: 50px;
+        width: 432px;
+        background-color: rgb(255,255,255);
+        border: 1px solid rgb(189, 188, 188);
+        box-sizing: border-box;
+       input{
+       font-size: 20px;
+       position: absolute;
+       top: 0;
+       height: 100%;
+       width: 382px;
+       border: 0;
+       margin-left: 8px;
+       outline: medium;
+       color: rgb(63, 63, 63);
+       }
+        
+        i{
+            width: 50px;
+            font-size: 27px;
+            margin: auto ;
+            margin-left: 10px;
+        }
+      
+    }
+    .search:hover{
+        border: 3px solid rgb(180,180,180);
+    }
+    .cortnan{
+        width: 63px;
+        span{
+            display: block;
+            font-size: 30px;
+            line-height: 50px;
+            text-align: center;
+            text-shadow: 1px 1px 2px;
+        }
+        
+    }
+    .cortnan:hover{
+        background-color: rgb(229,239,244);
+    }
+    .mask{
+        width: 63px;
+        // right: 0;
+        left: 0;
+        span{
+            display: block;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+            width: 50px;
+        }
+        div{
+            width: 14px;
+            height: 100%;
+        }
+        span:hover{
+            background-color: rgb(229,239,244);
+        }
+    }
+    
+    .date{
+        width: 63px;
+        // right: 0;
+        left: 0;
+        
+        span{
+           margin-top: auto;
+           height: 50px;
+            :nth-child(1){
+                display: block;
+                font-size: 10px;
+                height: 25px;
+                text-align: center;
+            }
+            :nth-child(2){
+                margin-top: 0;
+                font-size: 10px;
+                text-align: center;
+                height: 25px;
+            }
+        }
+    }
+    
+    .date:hover{
+        background-color: rgb(229,239,244);
+    }
+    .display{
+        width: 7px;
+        box-sizing: border-box;
+        border-left: 1px solid rgb(189, 188, 188);
+    }
+    .display:hover{
+        background-color: rgb(229,239,244);
+    }
+    .word{
+        width: 30px;
+        // right: 0;
+        left: 0;
+        
+            display: block;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+    }
+    .word:hover{
+        background-color: rgb(229,239,244);
+    }
+    .net{
+        width: 30px;
+        // right: 0;
+        left: 0;
+        
+        
+    }
+    .net:hover{
+        background-color: rgb(229,239,244);
+    }
+    .cell{
+        width: 30px;
+        // right: 0;
+        left: 0;
+        
+        
+    }
+    .cell:hover{
+        background-color: rgb(229,239,244);
+    }
+    .qq{
+        width: 30px;
+        // right: 0;
+        left: 0;
+        
+        
+    }
+    .qq:hover{
+        background-color: rgb(229,239,244);
+    }
+    .searchClick{
+        border: 3px solid rgb(0,120,215);
+    }
+}

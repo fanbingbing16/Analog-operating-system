@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zb-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/iconfont.css">
+    <!-- <link rel="stylesheet" href="./css/comon.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    
+</head>
+<body>
+    <div class="nothing"></div>
+    <!-- 底下栏 -->
+    <div class="taskBar">
+        <div class="search "><i class="iconfont icon-sousuo"></i>
+            <input type="text" value="在这里输入你要搜索的内容"></div>
+            <div class="cortnan">
+                <a href="#"><span class="iconfont icon-yuanquan"></span></a>
+            </div>
+            <div class="qq"></div>
+            <div class="cell"></div>
+            <div class="net "></div>
+            <div class="word ">英</div>
+            <div class="date "><span><p>6:49</p><p>2021/9/3</p></span></div>
+            <div class="mask "><span class="iconfont icon-renwu-tianchong"></span><div></div></div>
+            <div class="display  "></div>
+            
+    </div>
+    <script>
+        var search = document.querySelector('.search')
+        var input = search.querySelector('input');
+        console.log(input);
+        input.addEventListener('focus',function (){
+            // search.className = 'search searchClick';
+            if(this.value === '在这里输入你要搜索的内容'){
+                this.value = '';
+            }
+            search.style.border = '3px solid rgb(0,120,215)'
+        })
+        input.addEventListener('click',function (){
+               
+            
+            // search.className = 'searchClick search ';
+           
+        })
+        input.addEventListener('blur',function (){
+            // search.className = 'search searchClick';
+            console.log(this.value);
+            if(this.value === ''){
+                this.value = '在这里输入你要搜索的内容';
+            }
+            search.style.border = '1px solid rgb(189, 188, 188)'
+        })
+    </script>
+</body>
+</html>

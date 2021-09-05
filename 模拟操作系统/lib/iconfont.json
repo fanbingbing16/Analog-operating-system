@@ -1,0 +1,65 @@
+{
+  "id": "2784089",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "992445",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "1210593",
+      "name": "任务中心",
+      "font_class": "renwuzhongxin",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "2570184",
+      "name": "任务",
+      "font_class": "renwu-tianchong",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "6275382",
+      "name": "圆圈",
+      "font_class": "icon-test",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "9402934",
+      "name": "尖括号",
+      "font_class": "changyongicon-",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "18445303",
+      "name": "圆圈",
+      "font_class": "yuanquan",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "24007624",
+      "name": "编辑n",
+      "font_class": "bianjin",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "24007633",
+      "name": "复制-n",
+      "font_class": "fuzhi-n",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    }
+  ]
+}
