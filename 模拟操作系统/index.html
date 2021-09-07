@@ -11,7 +11,72 @@
     
 </head>
 <body>
-    <div class="nothing"></div>
+   <!-- 输入框点击出现 -->
+    <div class="apply">
+        <div class="nav">
+            <ul>
+                <li>全部</li>
+                <li>应用</li>
+                <li>文档</li>
+                <li>网页</li>
+                <li>更多</li>
+               
+            </ul>
+            <div class="menu">
+                <div>
+                <span>设置</span>
+            </div>
+               <div> <span>视频</span> </div>
+                <div><span>文件夹</span></div>
+                <div><span>音乐</span></div>
+                <div><span>照片</span></div>
+             </div>
+        </div>
+        <div class="contain all">
+            <div class="popular">
+                <p>热门应用</p>
+                <div class="box">
+                    <div><img src="./images/jsb.png" alt="no show"><p>记事本</p></div>
+                    <div><img src="./images/wps.png" alt="no show"><p>WPS Office</p></div>
+                    <div><img src="./images/wj.png" alt="no show"><p>文件资源管理器</p></div>
+                    <div><img src="./images/ml.png" alt="no show"><p>命令提示符</p></div>
+                    <div><img src="./images/edg.png" alt="no show"><p>Microsoft Edge</p></div>
+                </div>
+                <span>最近</span><span>快速搜索</span>
+                <div id="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="contain partOne">
+            <div class="popular">
+                <p>常用</p>
+                <div class="box">
+                    <div><img src="./images/jsb.png" alt="no show"><p>记事本</p></div>
+                    <div><img src="./images/wps.png" alt="no show"><p>WPS Office</p></div>
+                    <div><img src="./images/wj.png" alt="no show"><p>文件资源管理器</p></div>
+                    <div><img src="./images/ml.png" alt="no show"><p>命令提示符</p></div>
+                    <div><img src="./images/edg.png" alt="no show"><p>Microsoft Edge</p></div>
+                </div>
+                <span>近期</span><span>快速搜索</span>
+                <div id="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="document1 partTwo">
+            <img src="./images/wuwj.png" alt="no show">
+        </div>
+        <div class="web partThree">
+            <img src="./images/web.png" alt="no show">
+        </div>
+    </div>
     <!-- 底下栏 -->
     <div class="taskBar">
         <div class="search "><i class="iconfont icon-sousuo"></i>
@@ -28,31 +93,6 @@
             <div class="display  "></div>
             
     </div>
-    <script>
-        var search = document.querySelector('.search')
-        var input = search.querySelector('input');
-        console.log(input);
-        input.addEventListener('focus',function (){
-            // search.className = 'search searchClick';
-            if(this.value === '在这里输入你要搜索的内容'){
-                this.value = '';
-            }
-            search.style.border = '3px solid rgb(0,120,215)'
-        })
-        input.addEventListener('click',function (){
-               
-            
-            // search.className = 'searchClick search ';
-           
-        })
-        input.addEventListener('blur',function (){
-            // search.className = 'search searchClick';
-            console.log(this.value);
-            if(this.value === ''){
-                this.value = '在这里输入你要搜索的内容';
-            }
-            search.style.border = '1px solid rgb(189, 188, 188)'
-        })
-    </script>
+    <script src="./js/AddEvent.js"></script>
 </body>
 </html>
